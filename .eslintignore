@@ -1,0 +1,4 @@
+dist/*
+util/qqmap-wx-jssdk.min.js
+components/navbar/*
+components/vant/*

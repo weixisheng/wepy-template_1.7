@@ -1,0 +1,28 @@
+/* 颜色定义 */
+@base: #E3001E;
+@lightgray: #999;
+@gray: #666;
+@gray2: #707070;
+@text-color: #333;
+@bg: #eee;
+@border-color: #e0e0e0;
+@main-bg: #FF3753;
+@main-text: #FF3753;
+/* 常量定义 */
+@safe-area-inset-bottom: 34px;
+/* mixins */
+.ellipsis {
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.multi-ellipsis(@line: 2) {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+
+  text-overflow: ellipsis;
+
+  -webkit-line-clamp: @line;
+}

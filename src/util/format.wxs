@@ -1,0 +1,7 @@
+module.exports = {
+  time: function (t) {
+    // 返回格式 2019-07-04 周四 12:00:00
+    if (!t) return ''
+    return t.split(' ')[0]
+  }
+}

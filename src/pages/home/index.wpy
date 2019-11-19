@@ -1,0 +1,32 @@
+<template>
+  <view class="full-container">
+
+  </view>
+</template>
+
+<script>
+import wepy from 'wepy'
+import { staticURL } from '@/util/config'
+export default class Home extends wepy.page {
+  config = {
+    navigationBarTitleText: '首页'
+  }
+  data = {
+    staticURL
+  }
+  components = {
+  }
+  onLoad (options) {
+
+  }
+  onShow () {}
+  methods = {
+
+  }
+}
+</script>
+
+<style lang='less' scoped>
+@import '../../style/variable.less';
+
+</style>
