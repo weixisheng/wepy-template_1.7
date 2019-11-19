@@ -1,5 +1,5 @@
 {
-	"description": "vote mp",
+	"description": "test mp",
 	"setting": {
 		"urlCheck": false,
 		"es6": false,
@@ -18,8 +18,8 @@
 		}
 	},
 	"compileType": "miniprogram",
-	"appid": "wx91f7349694f69bfd",
-	"projectname": "%E7%BE%8E%E5%AE%B9%E9%99%A2%E8%AF%84%E9%80%89",
+	"appid": "touristappid",
+	"projectname": "test",
 	"miniprogramRoot": "dist/",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
@@ -46,36 +46,7 @@
 		},
 		"miniprogram": {
 			"current": 0,
-			"list": [
-				{
-					"id": 0,
-					"name": "pages/me/order",
-					"pathName": "pages/me/order",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 1,
-					"name": "pages/shop/detail",
-					"pathName": "pages/shop/detail",
-					"query": "shopId=8C90660F5A52CA5A&voteId=E0A361431B99AB64&prizeId=2DA975FF752190EA&prizeName=五星名店",
-					"scene": null
-				},
-				{
-					"id": 2,
-					"name": "pages/join/index",
-					"pathName": "pages/join/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 3,
-					"name": "pages/join/joinList",
-					"pathName": "pages/join/joinList",
-					"query": "",
-					"scene": null
-				}
-			]
+			"list": []
 		}
 	}
 }
