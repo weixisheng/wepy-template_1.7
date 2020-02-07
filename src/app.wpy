@@ -226,7 +226,7 @@ export default class extends wepy.app {
   }
   showToast(title, { type = 'none', duration = 2000, mask = true } = {}) {
     // 页面使用：this.$parent.showToast('hello')
-    wepy.showToast({
+    title && wepy.showToast({
       title,
       icon: type,
       duration,

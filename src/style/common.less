@@ -9,9 +9,6 @@ page {
 
   font-size: 28rpx;
 }
-view, text {
-  font-family: 'Microsoft YaHei';
-}
 button::after {
   border: none;
 }
@@ -32,6 +29,12 @@ button {
   height: 0;
 
   color: transparent;
+}
+.ellipsis {
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 /* 布局 对齐 */
 .flex {

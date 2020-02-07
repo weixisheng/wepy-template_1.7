@@ -26,8 +26,11 @@ const doRequest = (url, param, options) => {
   let params = {}
   const trim = (v) => typeof v == 'string' ? v.replace(/(^\s+)|(\s+$)/g, '') : v
   if (param) {
-    Object.entries(param).forEach(v => {
-      params[trim(v[0])] = trim(v[1])
+    // Object.entries(param).forEach(v => {
+    //   params[trim(v[0])] = trim(v[1])
+    // })
+    Object.keys(param).forEach(v => {
+      params[trim(v)] = trim(param[v])
     })
   } else params = param
   options.loading &&
